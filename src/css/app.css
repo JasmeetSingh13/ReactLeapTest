@@ -1,0 +1,152 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: #fdfdfc;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+#app .container-view {
+  padding: 10px;
+}
+
+#app #day{
+  color: #adaaaa;
+  display: flex;
+  flex-direction: row;
+  justify-content: st;
+  font-size: 9px;
+  font-weight:  bold;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+#app #day:before, #app #day:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px dotted #d1cdcd;
+  margin: auto;
+  padding-left: 10px;
+}
+#app #day:before {
+  margin-right: 10px
+}
+#app #day:after {
+  margin-left: 10px
+}
+
+
+
+#app .contact{
+
+        border: 1px #ede6e6 solid;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 5px;
+       
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    
+  
+  }
+  #app .NameVia{
+
+ 
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    
+  }
+  #app .icons{
+ 
+   
+    order: 0;
+    flex: 0 0 auto;
+    align-self: center;
+    padding-left: 10px;
+  }
+
+#app .conL{
+  
+  color: #282829;
+width: 234px;
+padding-left: 20px;
+text-decoration: none;
+
+
+}
+#app #via{
+  display: inline;
+padding-left: 22px;
+margin-top: 0;
+  font-size: 10px;
+  color: #8f8d8d;
+  text-decoration: none;
+  }
+
+#app #time{
+ 
+  color: #969393;
+font-size: 9px;
+letter-spacing: 1px;
+width: 50px;
+/* padding-top: 13px; */
+float: right;
+order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+
+}
+
+#app .al{
+
+display: inline;
+  width: 20px;
+  height: 20px;
+  order: 0;
+  flex: 0 0 auto;
+  align-self: center;
+
+
+   }
+  
+   
+#app .iconSize{
+  width: 18px;
+  height: 18px;
+  
+ 
+ }
+
+ #app .voice{
+  width: 18px;
+  height: 18px;
+
+ 
+ }
+
+
+
+ #app #remove_und{
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+header {
+  height: 40px;
+  margin: 0 auto;
+  padding: 20px 0;
+  /* text-align: center; */
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+ display: flex;
+ align-items:flex-end;
+}
+h1{
+  display: inline;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+padding-bottom: 5px;
+  border-bottom: 1px #45c021 solid;
+}
+header svg {
+  display: inline;
+  width: 120px; height: 100%;
+  padding-left: 10px;
+  justify-content: center;
+}

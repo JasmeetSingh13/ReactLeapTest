@@ -1,0 +1,48 @@
+.menuContainer {
+    height: 40px;
+    margin: 20px auto;
+    margin-top: 0px;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-top: 1px #ede6e6 solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-end;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 346px;
+  }
+  .menuIcon{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  
+  }
+  #phone{
+      width: 20px;
+      height: 20px;
+      padding-bottom: 1px;
+      border-bottom: 2px #45c021 solid;
+  }
+  #user{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+}
+  #settings{
+      width:20px;
+      height:20px;
+      padding-bottom: 2px;
+  }
+  #pop{
+    width:25px;
+    height:25px;
+    padding-bottom: 2px;
+}
